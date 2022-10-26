@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ION</title>
+	<link rel="stylesheet" href="ion.css">
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+
+<body>
+	<div class="container">
+		<header>
+			<!-- форма -->
+			<div class="form">
+				<form action="#" id="form" class="form__body">
+					<div class="form-title-item">
+						<h1 class="form__title">Отправка заявки</h1>
+						<span class="form-header__close">×</span>
+					</div>
+					<div class="form__item">
+						<label for="forName" class="form__label">Имя*:</label>
+						<input id="forName" type="text" name="name" class="form__input _req">
+					</div>
+					<div class="form__item">
+						<label for="formEmail" class="form__label">E-mail*:</label>
+						<input id="formEmail" type="text" name="email" class="form__input _req _email">
+					</div>
+					<div class="form__item">
+						<label for="formMessage" class="form__label">Сообщение:</label>
+						<textarea name="message" id="formMessage" class="form__input"></textarea>
+					</div>
+					<div class="form__item">
+						<div class="form__label">Прикрепить фото:</div>
+						<div class="file">
+							<div class="file__item">
+								<input id="formImage" accept=".jpg, .png, .gif" type="file" name="image" class="file__input">
+								<div class="file__button">Выбрать</div>
+							</div>
+							<div id="formPreview" class="file__preview"></div>
+						</div>
+					</div>
+					<div class="form__item">
+						<div class="checkbox">
+							<input id="formAgreement" checked type="checkbox" name="agreement" class="checkbox__input _req">
+							<label for="formAgreement" class="form__label">Я даю свое согласие с обработкой персональных
+								данных</label>
+						</div>
+					</div>
+					<button class="form__button" id="form__button">Отправить</button>
+				</form>
+			</div>
+			<!-- конец формы -->
+			<article class="item-grop">
+				<section class="item-group-panel">
+					<div class="panel-logo">
+						<img class="panel-logo__icon" src="images/logo/menu_logo.svg" alt="menu_logo">
+					</div>
+					<nav class="panel-control">
+						<a class="panel-control__link" href="aboutUs.html">О нас</a>
+						<a class="panel-control__link" href="services.html">Услуги</a>
+						<a class="panel-control__link" href="gallery.html">Фото работ</a>
+						<a class="panel-control__link" href="contacs.html">Контакты</a>
+					</nav>
+					<button class="btn btn-white panel__order">Оставить заявку</button>
+					<button class="menu__btn">
+						<span></span>
+					</button>
+				</section>
+				<section class="item-group-bg">
+					<section class="item-group-bg-mark1">
+						<img class="item-group-bg-mark1__image" src="images/logo/logo_header1.svg" alt="">
+					</section>
+					<section class="item-group-bg-mark2">
+						<img class="item-group-bg-mark2__image" src="images/logo/logo_header2.svg" alt="logo_header2">
+					</section>
+				</section>
+				<h2 class="item-grop__slogan">Инжиниринг Обслуживание Наладка</h2>
+			</article>
+
+		</header>
+		<main>
+			<article class="types">
+				<section class="types-left-column">
+					<img class="types-left-column__boiler" src="images/dg4.jpeg" alt="">
+					<div class="types-left-column-text">
+						<h2 class="types-left-column-text__main">Виды оборудования</h2>
+						<div class="text-group">
+							<p class="text-group__item"><span class="stroke">-</span>Бытовые и промышленные котлы на различных
+								видах топлива, водогрейные и паровые</p>
+							<p class="text-group__item"><span class="stroke">-</span>Воздухоподогреватели </p>
+							<p class="text-group__item"><span class="stroke">-</span>Парагенераторы </p>
+							<p class="text-group__item"><span class="stroke">-</span>Основное и вспомогательное оборудование
+								котельных, а также установки предварительной химической водоподготовки</p>
+						</div>
+					</div>
+				</section>
+				<section class="types-right-column">
+					<div class="types-right-column-text">
+						<h2 class="types-right-column-text__main">Виды проводимых работ</h2>
+						<div class="text-group">
+							<p class="text-group__item"><span class="bar">-</span>Проведение технического обслуживания
+								котельного оборудования на разных видах топлива</p>
+							<p class="text-group__item"><span class="bar">-</span>Проведение диагностики котлоагрегатов,
+								отопительных систем </p>
+							<p class="text-group__item"><span class="bar">-</span>Проведение ремонтов котлоагрегатов,
+								отопительных систем </p>
+							<p class="text-group__item"><span class="bar">-</span>Настройка параметров работы и параметров
+								безопасности, наладка и подключение котельного оборудования </p>
+							<p class="text-group__item"><span class="bar">-</span>Предоставление ответственного за котельное
+								оборудование </p>
+						</div>
+					</div>
+					<img class="types-right-column__image" src="images/kotly-prom.jpeg" alt="">
+				</section>
+			</article>
+			<article class="item">
+				<h1 class="item__title-name">Подробнее о работах:</h1>
+				<section class="item-works">
+					<section class="repair">
+						<section class="repair-item item--active">
+							<section class="repair-item__trigger">
+								<div class="trigger-block">
+									<img class="trigger-block__logo" src="images/icon/r.svg" alt="">
+									<div class="trigger-block-right">
+										<h2 class="up__text">Ремонт</h2>
+										<img class="arrow" src="images/icon/arrow2.svg" alt="">
+									</div>
+								</div>
+							</section>
+							<section class="repair-item__content">
+								<h4 class="repair-item__content-text">Замена нерабочих узлов. Выполняется замена вышедших из
+									строя узлов и деталей.<br>
+									Диагностика. Проводится диагностика всех узлов и агрегатов.
+									Профилактика возможных отказов отопительной техники. Выполняются профилактические работы для
+									предотвращения поломки техники в будущем.</h4>
+							</section>
+						</section>
+						<aside class="repair-image">
+							<img class="repair-image__boiler" src="images/repair-boiler.jpg" alt="">
+						</aside>
+					</section>
+					<section class="service">
+						<section class="repair-item">
+							<section class="repair-item__trigger">
+								<div class="trigger-block">
+									<img class="trigger-block__logo" src="images/icon/worker.svg" alt="">
+									<div class="trigger-block-right">
+										<h2 class="up__text">Обслуживание</h2>
+										<img class="arrow" src="images/icon/arrow2.svg" alt="">
+									</div>
+								</div>
+							</section>
+							<section class="repair-item__content">
+								<h4 class="repair-item__content-text">Техническая поддержка требуется даже самому совершенному
+									оборудованию, особенно - после воздействия различных отрицательных внешних факторов.
+									Неисправности в работе отопительного оборудования могут появиться по нескольким причинам,
+									определить которые сможет только обученный и опытный специалист.</h4>
+							</section>
+						</section>
+						<aside class="repair-image">
+							<img class="repair-image__boiler" src="images/kotel1.jpeg" alt="">
+						</aside>
+					</section>
+					<section class="tuning_work">
+						<section class="repair-item">
+							<section class="repair-item__trigger">
+								<div class="trigger-block">
+									<img class="trigger-block__logo" src="images/icon/adjusting.svg" alt="">
+									<div class="trigger-block-right">
+										<h2 class="up__text">Наладочные работы</h2>
+										<img class="arrow" src="images/icon/arrow2.svg" alt="">
+									</div>
+								</div>
+							</section>
+							<section class="repair-item__content">
+								<h4 class="repair-item__content-text">Настройка режимов работы. Осуществляется правильная
+									настройка режимов работы с целью увеличения КПД и срока службы оборудования. Также проводим
+									режимно наладочные испытания (РНИ) с предоставлением технического отчета</h4>
+							</section>
+						</section>
+						<aside class="repair-image">
+							<img class="repair-image__boiler" src="images/analyzer.jpeg" alt="">
+						</aside>
+					</section>
+				</section>
+			</article>
+			<!-- бренды -->
+			<article class="brands">
+				<section class="brands-title">
+					<h3 class="le__name">Бренды, которые мы обслуживаем !</h3>
+				</section>
+				<section class="brands-slider">
+
+
+					<div class="brands-slider1-container swiper-container">
+						<div class="brabds-slider1-wrapper swiper-wrapper">
+							<div class="brands-slider-slide swiper-slide">
+								<div class="brands-slider-image">
+									<img class="brands-slider-image__img" src="brand_img/BAXI.jpeg" alt="">
+								</div>
+							</div>
+							<div class="brands-slider-slide swiper-slide">
+								<div class="brands-slider-image">
+									<img class="brands-slider-image__img" src="brand_img/bosch.jpeg" alt="">
+								</div>
+							</div>
+							<div class="brands-slider1-slide swiper-slide">
+								<div class="brands-slider-image">
+									<img class="brands-slider-image__img" src="brand_img/ariston.jpeg" alt="">
+								</div>
+							</div>
+							<div class="brands-slider-slide swiper-slide">
+								<div class="brands-slider-image">
+									<img class="brands-slider-image__img" src="brand_img/buderus.png" alt="">
+								</div>
+							</div>
+							<div class="brands-slider-slide swiper-slide">
+								<div class="brands-slider-image">
+									<img class="brands-slider-image__img" src="brand_img/Chaffoteaux.jpeg" alt="">
+								</div>
+							</div>
+							<div class="brands-slider-slide swiper-slide">
+								<div class="brands-slider-image">
+									<img class="brands-slider-image__img" src="brand_img/deawoo_alton.png" alt="">
+								</div>
+							</div>
+							<div class="brands-slider-slide swiper-slide">
+								<div class="brands-slider-image">
+									<img class="brands-slider-image__img" src="brand_img/dietrich.jpeg" alt="">
+								</div>
+							</div>
+							<div class="brands-slider-slide swiper-slide">
+								<div class="brands-slider-image">
+									<img class="brands-slider-image__img" src="brand_img/ferroli.jpeg" alt="">
+								</div>
+							</div>
+
+
+							<div class="brands-slider-slide swiper-slide">
+								<div class="brands-slider-image">
+									<img class="brands-slider-image__img" src="brand_img/fondital.jpeg" alt="">
+								</div>
+							</div>
+							<div class="brands-slider-slide swiper-slide">
+								<div class="brands-slider-image">
+									<img class="brands-slider-image__img" src="brand_img/immergas.jpeg" alt="">
+								</div>
+							</div>
+							<div class="brands-slider-slide swiper-slide">
+								<div class="brands-slider-image">
+									<img class="brands-slider-image__img" src="brand_img/valliant.jpeg" alt="">
+								</div>
+							</div>
+							<div class="brands-slider-slide swiper-slide">
+								<div class="brands-slider-image">
+									<img class="brands-slider-image__img" src="brand_img/viessman.jpeg" alt="">
+								</div>
+							</div>
+							<div class="brands-slider-slide swiper-slide">
+								<div class="brands-slider-image">
+									<img class="brands-slider-image__img" src="brand_img/junkers.jpeg" alt="">
+								</div>
+							</div>
+							<div class="brands-slider-slide swiper-slide">
+								<div class="brands-slider-image">
+									<img class="brands-slider-image__img" src="brand_img/unical.jpeg" alt="">
+								</div>
+							</div>
+						</div>
+						<!-- навигация -->
+						<!-- <div class="swiper-pagination"></div> -->
+					</div>
+				</section>
+			</article>
+			<article class="responsible">
+				<section class="resp-block">
+					<h2 class="resp-block__text">Предоставление ответственного за тепловое хозяйство</h2>
+					<section class="two-block">
+						<section class="resp-img">
+							<img class="resp-img__kotelnay" src="images/kotelnay.jpeg" alt="">
+						</section>
+						<section class="resp-comtent">
+							<section class="resp-text">
+								<p class="resp-text__st">Ответственный за безопасную эксплуатацию объектов газораспределительной
+									системы и газопотребления, лицо осуществляющее руководство и являющийся ответственным за
+									ведение работ по обслуживанию, ремонту объектов газораспределительной системы и
+									газопотребления.</p>
+							</section>
+							<section class="resp-text">
+								<p class="resp-text__st">Ответственный за организацию и обеспечение промышленной безопасности
+									при эксплуатации котельных с установленными в них паровыми котлами с давлением пара не болеее
+									0,07МПа и водогрейными котлами с температурой нагрева воды не выше 115'С </p>
+							</section>
+							<section class="resp-text">
+								<p class="resp-text__st">Ответственный за исправное состояние и безопасную эксплуатацию
+									трубопроводов пара и горячей воды</p>
+							</section>
+							<section class="resp-text">
+								<p class="resp-text__st">Ответственный за исправное состояние и безопасную эксплуатацию котлов
+									работающих под избыточным давлением.</p>
+							</section>
+							<section class="resp-text">
+								<p class="resp-text__st">Ответсвенный за исправное состояние и безопасную эксплуатацию сосудов,
+									работающих под давлением</p>
+							</section>
+						</section>
+					</section>
+				</section>
+			</article>
+		</main>
+		<footer></footer>
+	</div>
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<script src="ion.js"></script>
+</body>
+
+</html>
