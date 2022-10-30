@@ -16,15 +16,37 @@ document.querySelectorAll('.repair-item__trigger').forEach(item =>
 let buttonOrder = document.querySelector('button.btn');
 let form = document.querySelector('div.form');
 let closeForm = document.querySelector('span.form-header__close');
-buttonOrder.onclick = function () {
-	form.style.display = 'flex';
-};
-console.log(form);
-console.log(buttonOrder);
+const wrapperForm = document.querySelector('.wrapper-form');
+
+function openModal() {
+	buttonOrder.addEventListener('click', () => {
+		form.style.display = 'flex';
+		document.body.style.overflow = 'hidden';
+		menuActive.classList.remove('menu__list--active');
+		wrapperForm.style.display = 'block';
+
+	});
+}
+
+openModal();
+
 // закрытие модального окна по клику на крестик
-closeForm.onclick = function () {
+function closeModal() {
 	form.style.display = 'none';
-};
+	document.body.style.overflow = '';
+	wrapperForm.style.display = 'none';
+}
+
+
+closeForm.addEventListener('click', closeModal);
+
+wrapperForm.addEventListener('click', (e) => {
+	if (e.target == wrapperForm) {
+		closeModal();
+	}
+});
+
+
 
 //slider
 
@@ -83,7 +105,7 @@ let mySlider1 = new Swiper('.brands-slider1-container', {
 });
 
 let sliderBlock = document.querySelector('.brands-slider1-container');
-console.log(sliderBlock);
+// console.log(sliderBlock);
 sliderBlock.addEventListener('mouseenter', function (e) {
 	mySlider1.autoplay.stop();
 });
@@ -199,11 +221,27 @@ document.addEventListener('DOMContentLoaded', function () {
 
 const btn = document.querySelector('.menu__btn'),
 	menuActive = document.querySelector('.panel-control');
-btn.addEventListener('click', () => {
+
+btn.addEventListener('click', (e) => {
 	menuActive.classList.toggle('menu__list--active');
+	closeModal();
 
 });
 
 
+
+
+//скрытие меню при скролле
+
+function closeMenuOnScroll() {
+	window.addEventListener('scroll', () => {
+		let scroll = window.pageYOffset;
+		if (scroll && menuActive.classList.contains('menu__list--active')) {
+			menuActive.classList.remove('menu__list--active');
+		}
+	});
+}
+
+closeMenuOnScroll();
 
 

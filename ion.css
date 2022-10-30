@@ -19,6 +19,9 @@
   font-family: "RubikSemiBold";
   src: url("fonts/Rubik/Rubik-SemiBold.ttf");
 }
+
+
+
 * {
   margin: 0;
 }
@@ -181,6 +184,11 @@ display: none;
   display: flex;
   height: 100%;
 }
+*.container header .item-grop .item-group-panel .panel-logo__icon {
+	position: absolute;
+	height: inherit;
+	width: min-content;
+}
 * .container header .item-grop .item-group-panel .panel-control {
   margin-left: 6em;
   display: flex;
@@ -227,7 +235,7 @@ display: none;
   opacity: 0;
 }
 * .container header .item-grop .item-group-panel .panel__order {
-  margin-left: 25%;
+  margin-left: 22%;
   width: 15vw;
   height: 78%;
   font-family: RubikMedium;
@@ -470,6 +478,7 @@ display: none;
   display: flex;
   flex-direction: column;
   align-items: center;
+  cursor: pointer;
 }
 * .container main .item-works .repair .repair-item__trigger .trigger-block .trigger-block-right .up__text, * .container main .item-works .tuning_work .repair-item__trigger .trigger-block .trigger-block-right .up__text, * .container main .item-works .service .repair-item__trigger .trigger-block .trigger-block-right .up__text {
   font-family: "RubikSemiBold";
@@ -645,6 +654,20 @@ display: none;
 
 
 
+
+.wrapper-form{
+	display: none;
+	top: 0;
+	left: 0;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+	background-color: rgba(0, 0, 0, 0.5);
+	overflow: hidden;
+}
+
+
 /* @media  */
 
 @media (max-width: 1280px) {
@@ -674,7 +697,6 @@ display: none;
 			bottom: 30%;
 	  }
 	  .container header .item-grop .item-group-panel .panel__order {
-		margin-left: 12%;
 		z-index: 50;
 	  }
 	  .container header {
@@ -751,9 +773,11 @@ display: none;
 
 
 @media (max-width: 860px) {
-	.panel-logo__icon{
-		z-index: 55;
-	}
+	.container header .item-grop .item-group-panel .panel-logo__icon {
+		width: 10%;
+		z-index: 50;
+  }
+
 	.container header .item-grop .item-grop__slogan {
 		font-size: 1.5em;
   }
@@ -769,7 +793,7 @@ display: none;
 			flex-direction: column;
 			align-items: center;
 			background-color: #110a58;
-			transition: all 0.3s;
+			transition: all 0.5s;
 	      margin-left: 0em;
 }
   .container header .item-grop .item-group-panel {
@@ -780,9 +804,7 @@ display: none;
 }
 
 
-  .container header .item-grop .item-group-panel .panel__order {
-margin-left: 5%;
-} 
+
   .container header .item-grop .item-group-panel .panel-control .panel-control__link {
 	text-decoration: none;
 	color: rgb(245 180 15);
@@ -837,7 +859,11 @@ margin-left: 5%;
 		width: 42vw;
 		padding: 20px;
 		z-index: 55;
+		top: 10%;
+		overflow: auto;
+		height: 80%;
   }
+  
    .container header .form__input {
 	height: 40px;
 }
@@ -879,7 +905,7 @@ margin-left: 5%;
 	font-size: 30px;
 }
    .container main .brands {
-	height: 300px;
+	height: 100%;
 }
    .container main .brands .brands-slider .brands-slider-image__img {
 	height: 8vh;
@@ -902,20 +928,28 @@ margin-left: 5%;
 	left: 0;
 	right: 0;
 	z-index: 100;
+	display: flex;
 }
    .container header .form {
 position: fixed;
 z-index: 105;
-}
+	
 }
 
 
+}
 
 @media (max-width: 750px){
 	.container header .item-grop .item-grop__slogan {
 		font-size: 1.4em;
 		width: 50%;
   }
+  .form__item-document{
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+
+}
 }
 
 
@@ -1033,6 +1067,12 @@ z-index: 105;
 }
   .le__name {
 	font-size: 18px;
+}
+.container header .form__title {
+	font-size: 25px;
+}
+.container header .form__input {
+	height: 35px;
 }
 }
 

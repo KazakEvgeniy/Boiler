@@ -14,50 +14,54 @@
 	<div class="container">
 		<header>
 			<!-- форма -->
-			<div class="form">
-				<form action="#" id="form" class="form__body">
-					<div class="form-title-item">
-						<h1 class="form__title">Отправка заявки</h1>
-						<span class="form-header__close">×</span>
-					</div>
-					<div class="form__item">
-						<label for="forName" class="form__label">Имя*:</label>
-						<input id="forName" type="text" name="name" class="form__input _req">
-					</div>
-					<div class="form__item">
-						<label for="formEmail" class="form__label">E-mail*:</label>
-						<input id="formEmail" type="text" name="email" class="form__input _req _email">
-					</div>
-					<div class="form__item">
-						<label for="formMessage" class="form__label">Сообщение:</label>
-						<textarea name="message" id="formMessage" class="form__input"></textarea>
-					</div>
-					<div class="form__item">
-						<div class="form__label">Прикрепить фото:</div>
-						<div class="file">
-							<div class="file__item">
-								<input id="formImage" accept=".jpg, .png, .gif" type="file" name="image" class="file__input">
-								<div class="file__button">Выбрать</div>
+			<div class="wrapper-form">
+				<div class="form">
+					<form action="#" id="form" class="form__body">
+						<div class="form-title-item">
+							<h1 class="form__title">Отправка заявки</h1>
+							<span class="form-header__close">×</span>
+						</div>
+						<div class="form__item">
+							<label for="forName" class="form__label">Имя*:</label>
+							<input id="forName" type="text" name="name" class="form__input _req">
+						</div>
+						<div class="form__item">
+							<label for="formEmail" class="form__label">E-mail*:</label>
+							<input id="formEmail" type="text" name="email" class="form__input _req _email">
+						</div>
+						<div class="form__item">
+							<label for="formMessage" class="form__label">Сообщение:</label>
+							<textarea name="message" id="formMessage" class="form__input"></textarea>
+						</div>
+						<div class="form__item form__item-document">
+							<div class="form__label">Прикрепить фото:</div>
+							<div class="file">
+								<div class="file__item">
+									<input id="formImage" accept=".jpg, .png, .gif" type="file" name="image" class="file__input">
+									<div class="file__button">Выбрать</div>
+								</div>
+								<div id="formPreview" class="file__preview"></div>
 							</div>
-							<div id="formPreview" class="file__preview"></div>
 						</div>
-					</div>
-					<div class="form__item">
-						<div class="checkbox">
-							<input id="formAgreement" checked type="checkbox" name="agreement" class="checkbox__input _req">
-							<label for="formAgreement" class="form__label">Я даю свое согласие с обработкой персональных
-								данных</label>
+						<div class="form__item">
+							<div class="checkbox">
+								<input id="formAgreement" checked type="checkbox" name="agreement" class="checkbox__input _req">
+								<label for="formAgreement" class="form__label">Я даю свое согласие с обработкой персональных
+									данных</label>
+							</div>
 						</div>
-					</div>
-					<button class="form__button" id="form__button">Отправить</button>
-				</form>
+						<button class="form__button" id="form__button">Отправить</button>
+					</form>
+				</div>
 			</div>
 			<!-- конец формы -->
 			<article class="item-grop">
+				<!-- <div class="panel-logo">
+					
+				</div> -->
 				<section class="item-group-panel">
-					<div class="panel-logo">
-						<img class="panel-logo__icon" src="images/logo/menu_logo.svg" alt="menu_logo">
-					</div>
+					<img class="panel-logo__icon" src="images/logo/menu_logo.svg" alt="menu_logo">
+
 					<nav class="panel-control">
 						<a class="panel-control__link" href="aboutUs.html">О нас</a>
 						<a class="panel-control__link" href="services.html">Услуги</a>

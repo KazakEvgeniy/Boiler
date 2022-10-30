@@ -50,3 +50,8 @@
 	margin: 15px 0;
 }
 }
+@media (max-width: 420px){
+	.content .content-head .content-head__name {
+		font-size: 1.6em;
+  }
+}
