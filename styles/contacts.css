@@ -67,6 +67,9 @@ body {
 .menu__link-phone{
 	color: inherit;
 }
+.email-link{
+color: #012f55;
+}
 
 @media (max-width: 860px){
 	.main .main-block .call-image {

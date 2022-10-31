@@ -1,7 +1,6 @@
 //аккордеон
 
-const repairItem = document.querySelectorAll('.repair-item');
-repairItem.forEach(item =>
+document.querySelectorAll('.repair-item').forEach(item =>
 	item.addEventListener('click', () => {
 		item.classList.toggle('item--active');
 	})
