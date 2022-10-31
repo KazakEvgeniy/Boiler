@@ -1,14 +1,9 @@
 //аккордеон
-document.querySelectorAll('.repair-item__trigger').forEach(item =>
-	item.addEventListener('click', () => {
-		const parent = item.parentNode;
 
-		if (parent.classList.contains('item--active')) {
-			parent.classList.remove('item--active');
-		} else {
-			document.querySelectorAll('.repair-item').forEach(child => child.classList.remove('item--active'));
-			parent.classList.toggle('item--active');
-		}
+const repairItem = document.querySelectorAll('.repair-item');
+repairItem.forEach(item =>
+	item.addEventListener('click', () => {
+		item.classList.toggle('item--active');
 	})
 );
 

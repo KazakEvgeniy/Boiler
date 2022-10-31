@@ -11,21 +11,21 @@
 		stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none"
 		font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal; fill: rgb(255, 255, 255);">
 		<g data-paper-data="{&quot;isGlobalGroup&quot;:true,&quot;bounds&quot;:{&quot;x&quot;:174.80039318712645,&quot;y&quot;:115.00000000000001,&quot;width&quot;:200.39921362574714,&quot;height&quot;:240}}"
-			style="fill: rgb(255, 255, 255);">
+			style="fill: rgb(15 173 245);">
 			<g data-paper-data="{&quot;isSecondaryText&quot;:true}" fill-rule="nonzero" style="fill: rgb(255, 255, 255);">
 			</g>
 			<g data-paper-data="{&quot;isPrimaryText&quot;:true}" fill-rule="nonzero" style="fill: rgb(255, 255, 255);">
 				<path d="M223.73769,297.80501h-6.56218v39.59936h6.56218z"
 					data-paper-data="{&quot;glyphName&quot;:&quot;I&quot;,&quot;glyphIndex&quot;:0,&quot;firstGlyphOfWord&quot;:true,&quot;word&quot;:1}"
-					style="fill: rgb(15, 30, 245);"></path>
+					style="fill: rgb(15 173 245);"></path>
 				<path
 					d="M271.32292,303.51863c-4.01651,-4.24279 -9.27756,-6.44904 -15.7266,-6.44904c-6.3359,0 -11.65353,2.20625 -15.7266,6.50561c-3.50737,3.73365 -5.31763,8.37244 -5.31763,13.91635c0,5.48734 1.81026,10.12612 5.31763,13.91635c4.07308,4.29936 9.39071,6.44904 15.7266,6.44904c6.39247,0 11.65353,-2.09311 15.67003,-6.39247c3.56394,-3.73365 5.3742,-8.37244 5.3742,-13.97292c0,-5.60048 -1.81026,-10.23926 -5.31763,-13.97292zM266.06186,328.01366c-2.60224,2.65881 -6.16619,3.95994 -10.46554,3.95994c-4.24279,0 -7.80673,-1.35769 -10.46554,-4.01651c-2.77196,-2.71538 -4.18622,-6.22276 -4.18622,-10.46554c0,-3.95994 1.24455,-7.24103 3.67708,-9.89984c2.77196,-3.05481 6.39247,-4.58221 10.97468,-4.58221c4.24279,0 7.80673,1.30112 10.46554,3.95994c2.77196,2.60224 4.12965,6.10962 4.12965,10.52212c0,4.4125 -1.35769,7.91987 -4.12965,10.52212z"
 					data-paper-data="{&quot;glyphName&quot;:&quot;O&quot;,&quot;glyphIndex&quot;:1,&quot;word&quot;:1}"
-					style="fill: rgb(15, 30, 245);"></path>
+					style="fill: rgb(15 173 245);"></path>
 				<path
 					d="M287.85093,297.74844v39.59936h6.56218v-39.59936zM332.82449,297.74844h-6.56218v32.47147l-26.70128,-28.45497v8.65529l25.06074,26.92756h8.20272z"
 					data-paper-data="{&quot;glyphName&quot;:&quot;N&quot;,&quot;glyphIndex&quot;:2,&quot;lastGlyphOfWord&quot;:true,&quot;word&quot;:1}"
-					style="fill: rgb(15, 30, 245);"></path>
+					style="fill: rgb(15 173 245);"></path>
 			</g>
 			<g data-paper-data="{&quot;fillRule&quot;:&quot;evenodd&quot;,&quot;fillRuleOriginal&quot;:&quot;evenodd&quot;,&quot;isIcon&quot;:true,&quot;iconStyle&quot;:&quot;standalone&quot;,&quot;selectedEffects&quot;:{&quot;container&quot;:&quot;&quot;,&quot;transformation&quot;:&quot;&quot;,&quot;pattern&quot;:&quot;&quot;},&quot;bounds&quot;:{&quot;x&quot;:234.74038980209667,&quot;y&quot;:115.00000000000001,&quot;width&quot;:80.51922039580671,&quot;height&quot;:167.64000601711882},&quot;iconType&quot;:&quot;icon&quot;,&quot;rawIconId&quot;:&quot;70350&quot;,&quot;combineTerms&quot;:&quot;fire&quot;,&quot;suitableAsStandaloneIcon&quot;:true}"
 				fill-rule="evenodd" style="fill: rgb(255, 255, 255);">
@@ -36,7 +36,7 @@
 			</g>
 			<path
 				d="M204.14871,164.14871c9.24485,-9.24485 19.86109,-16.40259 31.84873,-21.47323c9.80094,-4.14572 19.96923,-6.6546 30.50489,-7.52664l-0.70003,2.21062c-9.99681,0.91759 -19.65383,3.34659 -28.97106,7.28699c-11.73124,4.96234 -22.12109,11.96741 -31.16956,21.01523c-9.04782,9.04847 -16.05289,19.43832 -21.01523,31.16956c-5.13653,12.14553 -7.7048,24.86845 -7.7048,38.16876c0,13.30032 2.56827,26.02324 7.7048,38.16876c4.96168,11.73058 11.96676,22.12044 21.01523,31.16956c2.13193,2.13193 4.33837,4.15044 6.61932,6.05554l0,2.76774c-2.81941,-2.27142 -5.53017,-4.70819 -8.13229,-7.31031c-9.24485,-9.2442 -16.40259,-19.86044 -21.47323,-31.84873c-5.25006,-12.41171 -7.87508,-25.41257 -7.87508,-39.00256c0,-13.58934 2.62503,-26.59019 7.87508,-39.00256c5.06999,-11.98764 12.22773,-22.60388 21.47323,-31.84873zM314.00256,142.67548c11.98699,5.06999 22.60323,12.22773 31.84873,21.47323c9.24485,9.2442 16.40259,19.86044 21.47323,31.84873c5.25006,12.41171 7.87508,25.41257 7.87508,39.00256c0,13.58999 -2.62503,26.59085 -7.87508,39.00256c-5.06999,11.98699 -12.22773,22.60323 -21.47323,31.84873c-2.60206,2.60224 -5.31282,5.03911 -8.13229,7.31063v-2.76865c2.28086,-1.90493 4.4873,-3.92324 6.61932,-6.05495c9.04716,-9.04782 16.05224,-19.43767 21.01523,-31.16956c5.13653,-12.14553 7.7048,-24.86845 7.7048,-38.16876c0,-13.30032 -2.56827,-26.02324 -7.7048,-38.16876c-4.96234,-11.73124 -11.96741,-22.12109 -21.01523,-31.16956c-9.04782,-9.04782 -19.43767,-16.05289 -31.16956,-21.01523c-7.89224,-3.33793 -16.02859,-5.5913 -24.40905,-6.76011l-0.33235,-2.2064c8.78594,1.16819 17.31101,3.50003 25.5752,6.99554z"
-				data-paper-data="{&quot;isLogoContainer&quot;:true}" fill-rule="nonzero" style="fill: rgb(15, 30, 245);">
+				data-paper-data="{&quot;isLogoContainer&quot;:true}" fill-rule="nonzero" style="fill: rgb(15 173 245);">
 			</path>
 		</g>
 	</g>

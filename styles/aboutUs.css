@@ -69,7 +69,6 @@ body {
   width: 18vw;
 }/*# sourceMappingURL=aboutUs.css.map */
 
-
 @media (max-width: 750px){
 	.container .content .content-main {
 		background-color: rgba(81, 81, 71, 0.34);
@@ -98,5 +97,4 @@ body {
 	}
 	
 }
-
 

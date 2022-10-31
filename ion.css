@@ -448,6 +448,7 @@ display: none;
   border-radius: 10px;
 }
 * .container main .item-works .repair .repair-item, * .container main .item-works .tuning_work .repair-item, * .container main .item-works .service .repair-item {
+	cursor: pointer;
   display: block;
   width: 100%;
   background-color: rgba(194, 157, 218, 0.2666666667);
